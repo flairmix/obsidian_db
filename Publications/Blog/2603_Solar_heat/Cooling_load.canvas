@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"cec79dafbdada2e0","type":"text","text":"Теплопоступления от людей","x":125,"y":10,"width":260,"height":83},
+		{"id":"bf3e1a100dc7e21b","type":"text","text":"Теплопоступления от техники","x":140,"y":120,"width":245,"height":100},
+		{"id":"3120b45ee262387d","type":"text","text":"Теплопоступления от электрического освещения","x":140,"y":260,"width":245,"height":100},
+		{"id":"375fbacc6f0c0141","type":"text","text":"$$\nQ_{sun}(x) = \\sum Q_{glass, i}  + \\sum Q_{m, i} \\tag{1}\n$$ \n\n\n(Теплопоступления от солнечной радиации)\n","x":55,"y":-167,"width":330,"height":120},
+		{"id":"6448a0bf629bed52","type":"text","text":"$$\nQ_{\\delta t, i} = (t_{out-day-mid} + 0.5 \\cdot A_{air-day} \\cdot theta - t_{in}) \\cdot (A_{gl} / R) \\tag{18}\n$$\n(Тепловой поток конвективной теплопередачей )","x":-1180,"y":-6,"width":540,"height":130},
+		{"id":"a30485d92c7fa936","type":"text","text":"Коэффициент поглощения $a_d$","x":-890,"y":162,"width":250,"height":55},
+		{"id":"7ec45eb764bb429e","type":"text","text":"$$\nQ_{rad, i} = (q_d \\cdot K_1 + q_nd \\cdot K_2) \\cdot K3 \\cdot K4 \\cdot A_{gl} \\tag{3}\n$$\n(Тепловой поток солнечной радиации через световой проем)","x":-1180,"y":-169,"width":540,"height":125},
+		{"id":"26e39a3d75decf96","type":"text","text":"$Q_{m}$ \n\n(Тепловой поток через массивные ограждения)","x":-440,"y":124,"width":320,"height":119},
+		{"id":"58aa1d8910bbc864","type":"text","text":"Q(x) = $\\sum$ ${Q_i\n}$ \n\n(Нагрузка кондиционирования)","x":500,"y":-169,"width":300,"height":130},
+		{"id":"0410779cc17a24fa","type":"text","text":"$$\nQ_{glass, i} = Q_{rad,i} \\cdot a_{d, i} + Q_{\\delta t, i} \\tag{2}\n$$\n(Тепловой поток через остекление)","x":-440,"y":-167,"width":320,"height":125}
+	],
+	"edges":[
+		{"id":"7b65361f7bae93cb","fromNode":"cec79dafbdada2e0","fromSide":"right","toNode":"58aa1d8910bbc864","toSide":"left"},
+		{"id":"3d54f1d67b01c794","fromNode":"3120b45ee262387d","fromSide":"right","toNode":"58aa1d8910bbc864","toSide":"left"},
+		{"id":"4807d6b0993deda0","fromNode":"26e39a3d75decf96","fromSide":"right","toNode":"375fbacc6f0c0141","toSide":"left"},
+		{"id":"1fcaafe99c63511f","fromNode":"bf3e1a100dc7e21b","fromSide":"right","toNode":"58aa1d8910bbc864","toSide":"left"},
+		{"id":"f7073a90c1b1eea1","fromNode":"a30485d92c7fa936","fromSide":"right","toNode":"0410779cc17a24fa","toSide":"left"},
+		{"id":"7a49726d006543fb","fromNode":"375fbacc6f0c0141","fromSide":"right","toNode":"58aa1d8910bbc864","toSide":"left"},
+		{"id":"0709d7d755fff21f","fromNode":"0410779cc17a24fa","fromSide":"right","toNode":"375fbacc6f0c0141","toSide":"left"},
+		{"id":"0fb06925d0b94e4c","fromNode":"7ec45eb764bb429e","fromSide":"right","toNode":"0410779cc17a24fa","toSide":"left"},
+		{"id":"a047099428b8b67e","fromNode":"6448a0bf629bed52","fromSide":"right","toNode":"0410779cc17a24fa","toSide":"left"}
+	]
+}
