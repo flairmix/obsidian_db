@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"2548e2edac1d1957","type":"text","text":"Object model (Building)","x":-660,"y":-225,"width":280,"height":60,"color":"3"},
+		{"id":"7f1621caf22e8db3","type":"text","text":"input_parameters = \n{\n  \"A_m2_n\": 1277,\n  \"A_m2_ne\": 0,\n  \"A_m2_e\": 2751,\n  \"A_m2_se\": 0,\n  \"A_m2_s\": 1235,\n  \"A_m2_sw\": 0,\n  \"A_m2_w\": 2762,\n  \"A_m2_nw\": 0,\n  \"Q_people_kW\": 100,\n  \"Q_appliances_kW\": 220,\n  \"L_m3_h\": 48000,\n  \"t_out_day_mid\": 19,\n  \"t_in_air\": 22,\n  \"t_in_conduction\": 24,\n  \"A_air_day\": 24,\n  \"R\": 1.45,\n  \"K1\": 0.9,\n  \"K2\": 1,\n  \"K3\": 0.4,\n  \"K4\": 0.34\n}","x":-660,"y":-120,"width":280,"height":820,"color":"3"},
+		{"id":"d276b4ff687b9e44","type":"text","text":"\"hour_labels\": [\n    \"01\",\n    \"02\",\n    \"03\",\n    \"04\",\n    \"05\",\n    \"06\",\n    \"07\",\n    \"08\",\n    \"09\",\n    \"10\",\n    \"11\",\n    \"12\",\n    \"13\",\n    \"14\",\n    \"15\",\n    \"16\",\n    \"17\",\n    \"18\",\n    \"19\",\n    \"20\",\n    \"21\",\n    \"22\",\n    \"23\",\n    \"24\"\n  ],","x":-280,"y":20,"width":160,"height":680},
+		{"id":"b2041e5c7e5fa8fc","type":"text","text":"Calculation model","x":-280,"y":-225,"width":440,"height":60,"color":"4"},
+		{"id":"e152b9a81a3a86c8","type":"text","text":"Result","x":-280,"y":-120,"width":440,"height":50},
+		{"id":"e0929b5c4dd363aa","type":"text","text":" \"solar_radiation_gain_kW\": [\n    0,\n    0,\n    0,\n    9.274,\n    31.666,\n    63.039,\n    95.58,\n    109.749,\n    101.065,\n    78.329,\n    56.149,\n    50.759,\n    54.213,\n    69.771,\n    96.436,\n    113.998,\n    116.04,\n    91.245,\n    41.55,\n    0,\n    0,\n    0,\n    0,\n    0\n  ],","x":-60,"y":20,"width":260,"height":680},
+		{"id":"6b549332988a7f81","type":"text","text":"\"total_heat_gain_kW\": [\n    19.548,\n    -6.094,\n    -14.086,\n    3.18,\n    51.214,\n    124.213,\n    210.701,\n    286.809,\n    345.393,\n    389.924,\n    429.683,\n    478.24,\n    523.321,\n    564.52,\n    599.177,\n    608.747,\n    585.148,\n    518.726,\n    415.084,\n    311.595,\n    244.328,\n    177.06,\n    115.121,\n    61.174\n  ],","x":520,"y":20,"width":220,"height":680},
+		{"id":"e5d109d10854e7e6","type":"text","text":"  \"conduction_gain_kW\": [\n    -85.452,\n    -92.094,\n    -94.086,\n    -92.094,\n    -85.452,\n    -74.826,\n    -60.879,\n    -44.94,\n    -27.672,\n    -10.405,\n    5.534,\n    19.481,\n    30.108,\n    36.749,\n    38.741,\n    36.749,\n    30.108,\n    19.481,\n    5.534,\n    -10.405,\n    -27.672,\n    -44.94,\n    -60.879,\n    -74.826\n  ],","x":240,"y":20,"width":240,"height":680}
+	],
+	"edges":[
+		{"id":"efd499487fb4f643","fromNode":"2548e2edac1d1957","fromSide":"bottom","toNode":"7f1621caf22e8db3","toSide":"top"},
+		{"id":"48167793f0cfe67e","fromNode":"2548e2edac1d1957","fromSide":"right","toNode":"b2041e5c7e5fa8fc","toSide":"left"},
+		{"id":"67fc06dfa0a658a6","fromNode":"b2041e5c7e5fa8fc","fromSide":"bottom","toNode":"e152b9a81a3a86c8","toSide":"top"},
+		{"id":"92c20c4660d560b0","fromNode":"e152b9a81a3a86c8","fromSide":"bottom","toNode":"d276b4ff687b9e44","toSide":"top"},
+		{"id":"a96ef370c15a7336","fromNode":"e152b9a81a3a86c8","fromSide":"bottom","toNode":"e0929b5c4dd363aa","toSide":"top"},
+		{"id":"aa5858f990ac4ac3","fromNode":"e152b9a81a3a86c8","fromSide":"bottom","toNode":"e5d109d10854e7e6","toSide":"top"},
+		{"id":"afa7a88229adf345","fromNode":"e152b9a81a3a86c8","fromSide":"bottom","toNode":"6b549332988a7f81","toSide":"top"}
+	]
+}

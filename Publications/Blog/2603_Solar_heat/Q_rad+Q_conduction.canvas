@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"90559a5cc2cdebbd","type":"text","text":"$K_1$ - коэффициенты облученности прямой солнечной радиацией для учета плошали светового проема;","x":-1827,"y":777,"width":477,"height":94},
+		{"id":"fc2eb4a497131f04","type":"text","text":"$K_2$ - коэффициенты облученности д я учета поступления рассеянной солнечной радиации через световые проемы;","x":-1827,"y":891,"width":477,"height":100},
+		{"id":"fdb40dfcb523ee2b","type":"text","text":"$K_3$ - коэффициенты теплопропускания солнцезащитных устройств;","x":-1827,"y":1011,"width":477,"height":80},
+		{"id":"514bd370f8078475","type":"text","text":"$K_4$ - коэффициент теплопропускания остеклением световых проемов;","x":-1827,"y":1111,"width":477,"height":80},
+		{"id":"563c342c09cc4db3","type":"text","text":"Ориентация светового проема (остекления)","x":-1829,"y":1220,"width":477,"height":63},
+		{"id":"b4ce95d0bea29326","type":"text","text":"$q_nd$ - поверхностная плотность теплового потока, Вт/кв. м, через остекленный световой проем в июле в данный час суток от рассеянной солнечной радиации;","x":-1831,"y":1481,"width":479,"height":126},
+		{"id":"4262485e48ab6640","type":"text","text":"$q_d$ - поверхностная плотность теплового потока, Вт/кв. м, через остекленный световой проем в июле в данный час суток от прямой солнечной радиации;","x":-1827,"y":1324,"width":475,"height":120},
+		{"id":"0e4c3c1c40adb1c1","type":"text","text":"Час суток","x":-1200,"y":1421,"width":250,"height":60},
+		{"id":"e44d1fe9914abd3a","type":"text","text":"$$\nQ_{rad, i} = (q_d \\cdot K_1 + q_nd \\cdot K_2) \\cdot K3 \\cdot K4 \\cdot A_{gl} \\tag{3}\n$$\n(Тепловой поток солнечной радиации через световой проем)","x":-600,"y":1421,"width":540,"height":125},
+		{"id":"db1d18dfa89f2308","type":"text","text":"$$\nQ_{\\delta t, i} = (t_{out-day-mid} + 0.5 \\cdot A_{air-day} \\cdot theta - t_{in}) \\cdot (A_{gl} / R) \\tag{18}\n$$\n(Тепловой поток конвективной теплопередачей )","x":-600,"y":1840,"width":540,"height":120},
+		{"id":"115bb6a69c50ae9c","type":"text","text":"$A_{gl}$ - площадь светового проема (остекления), кв. м.","x":-1831,"y":1647,"width":479,"height":73},
+		{"id":"bb0fcc67c50df712","type":"text","text":"$A_{air-day}$ - максимальная суточная амплитуда температуры наружного воздуха в июле, град.С;","x":-1829,"y":1920,"width":475,"height":80},
+		{"id":"79753560fc1a4452","type":"text","text":"$t_{in}$ - температура воздуха в помещении, град.С];","x":-1829,"y":2100,"width":475,"height":60},
+		{"id":"fd6b6ef1a0f97f46","type":"text","text":"R -  приведенное сопротивление теплопередаче остекления светового проема, $m^2С/Вт$.","x":-1829,"y":2180,"width":475,"height":70},
+		{"id":"36535bf2d7654f95","type":"text","text":"$\\theta$ - коэффициент, выражающий гармоническое изменение температуры наружного воздуха;","x":-1831,"y":2020,"width":479,"height":70},
+		{"id":"458a06819e70cf20","type":"text","text":"$t_{out-day-mid}$ - средняя за сутки температура наружного воздуха, град.С;","x":-1831,"y":1820,"width":479,"height":80}
+	],
+	"edges":[
+		{"id":"69f32d2775f85d0a","fromNode":"90559a5cc2cdebbd","fromSide":"right","toNode":"e44d1fe9914abd3a","toSide":"left","color":"5"},
+		{"id":"33631c532cdbe2ad","fromNode":"fc2eb4a497131f04","fromSide":"right","toNode":"e44d1fe9914abd3a","toSide":"left","color":"5"},
+		{"id":"3e69854b913f9776","fromNode":"fdb40dfcb523ee2b","fromSide":"right","toNode":"e44d1fe9914abd3a","toSide":"left","color":"5"},
+		{"id":"142b895207ca33d3","fromNode":"514bd370f8078475","fromSide":"right","toNode":"e44d1fe9914abd3a","toSide":"left","color":"5"},
+		{"id":"b6718c846e59d1ce","fromNode":"b4ce95d0bea29326","fromSide":"right","toNode":"0e4c3c1c40adb1c1","toSide":"left","color":"5"},
+		{"id":"4db1c9fac74d364d","fromNode":"4262485e48ab6640","fromSide":"right","toNode":"0e4c3c1c40adb1c1","toSide":"left","color":"5"},
+		{"id":"ee9a3a30a82438e3","fromNode":"0e4c3c1c40adb1c1","fromSide":"right","toNode":"e44d1fe9914abd3a","toSide":"left","color":"5"},
+		{"id":"29b4f9f5111d5717","fromNode":"563c342c09cc4db3","fromSide":"right","toNode":"e44d1fe9914abd3a","toSide":"left","color":"5"},
+		{"id":"7d84c43c447b3f07","fromNode":"36535bf2d7654f95","fromSide":"right","toNode":"0e4c3c1c40adb1c1","toSide":"left","color":"1"},
+		{"id":"bb93c84a3b43576a","fromNode":"0e4c3c1c40adb1c1","fromSide":"right","toNode":"db1d18dfa89f2308","toSide":"left","color":"1"},
+		{"id":"b999e535dc9adc5b","fromNode":"458a06819e70cf20","fromSide":"right","toNode":"db1d18dfa89f2308","toSide":"left","color":"1"},
+		{"id":"f567b6b04d7dbfe9","fromNode":"bb0fcc67c50df712","fromSide":"right","toNode":"db1d18dfa89f2308","toSide":"left","color":"1"},
+		{"id":"1d58c2ae50528164","fromNode":"79753560fc1a4452","fromSide":"right","toNode":"db1d18dfa89f2308","toSide":"left","color":"1"},
+		{"id":"ae6fdc204ee9bbc4","fromNode":"fd6b6ef1a0f97f46","fromSide":"right","toNode":"db1d18dfa89f2308","toSide":"left","color":"1"},
+		{"id":"44e66c261a4b55a2","fromNode":"115bb6a69c50ae9c","fromSide":"right","toNode":"db1d18dfa89f2308","toSide":"left","color":"1"},
+		{"id":"f48bff88c0fe806f","fromNode":"115bb6a69c50ae9c","fromSide":"right","toNode":"e44d1fe9914abd3a","toSide":"left","color":"5"}
+	]
+}
