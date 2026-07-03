@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lanit/Расчет утечек воздуха через дверь по Пособию 1.91 к СНиП 2.04.05-91.md",
+                "file": "Engineering/ASHRAE/ASHRAE climatic design conditions web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Расчет утечек воздуха через дверь по Пособию 1.91 к СНиП 2.04.05-91"
+              "title": "ASHRAE climatic design conditions web"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 617.5
+    "width": 341.5
   },
   "right": {
     "id": "3db5f9aa6a1d3021",
@@ -185,37 +185,45 @@
   },
   "active": "3df2f157fc65acad",
   "lastOpenFiles": [
-    "Lanit/Расчет утечек воздуха через дверь по сопротивлению воздухопропусканию.md",
+    "Engineering/Water/Water.canvas",
+    "Reading/List.md",
     "Lanit/Расчет утечек воздуха через дверь по Пособию 1.91 к СНиП 2.04.05-91.md",
-    "Без названия.md",
-    "Water/Water.canvas",
+    "Lanit/Расчет утечек воздуха через дверь по сопротивлению воздухопропусканию.md",
+    "Publications/Blog/2603_Code_and_HVAC/2604zz_hvac and code - 02/hvac and code - cooling loads calculation - part2.1 - calculation methodologies.md",
+    "Mechanic/Уравнение движения.canvas",
+    "Mechanic/equations/Уравнение движения.md",
+    "Mechanic/equations/Newton's laws of motion.md",
+    "Mechanic/equations/Navier–Stokes equations.md",
+    "Mechanic/definitions/Dot product.md",
+    "Mechanic/definitions/The Eulerian specification of the flow field.md",
+    "Mechanic/equations",
+    "Lanit/Links.md",
+    "Engineering/ASHRAE/ASHRAE climatic design conditions web.md",
+    "Engineering/UptimeInstitute",
+    "Engineering/ASHRAE",
+    "Latex MD.md",
+    "Pasted image 20260428183841.png",
+    "Cooling_load.png",
+    "Engineering",
+    "Reading",
     "Heating_points/Без названия.canvas",
     "DataScience/План - график.md",
     "CFD/CFD basics.md",
     "CFD/openFoam/структура проекта/граф_структуры.canvas",
     "CFD/openFoam/Solvers.md",
-    "Lanit/Links.md",
     "Lanit/Параметры проектные mid.md",
-    "Mechanic/Уравнение движения.canvas",
     "Mechanic/definitions/∇ - Оператор набла.md",
     "Mechanic/definitions/m - Mass.md",
-    "Mechanic/definitions/Navier–Stokes equations.md",
-    "Mechanic/definitions/Newton's laws of motion.md",
     "Mechanic/definitions/p - Momentum.md",
     "Mechanic/definitions/p - Pressure.md",
     "Mechanic/definitions/Scalar field.md",
     "Mechanic/definitions/Components_stress_tensor_cartesian.svg.png",
     "Mechanic/definitions",
     "Mechanic/definitions/Векторное поле.md",
-    "Cooling_load.png",
     "ТЗ_Котельная.md",
     "Heating_points",
-    "Latex MD.md",
     "Mechanic/definitions/F - Force.md",
     "Publications/Blog/2603_Solar_heat/Solar radiation and cooling load calculation for HVAC.md",
-    "Mechanic/definitions/Уравнение движения.md",
-    "Mechanic/definitions/Скалярное поле.md",
-    "Mechanic/definitions/∇⋅ a   - Divergence.md",
     "Lanit"
   ]
 }
