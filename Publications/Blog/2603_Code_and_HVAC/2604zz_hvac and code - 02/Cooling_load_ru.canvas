@@ -5,7 +5,7 @@
 		{"id":"3120b45ee262387d","type":"text","text":"Теплопоступления от электрического освещения","x":140,"y":351,"width":245,"height":100},
 		{"id":"375fbacc6f0c0141","type":"text","text":"$$\nQ_{sun}(x) = \\sum Q_{glass, i}  + \\sum Q_{m, i} \\tag{1}\n$$ \n\n\n(Теплопоступления от солнечной радиации)\n","x":55,"y":-205,"width":330,"height":161},
 		{"id":"58aa1d8910bbc864","type":"text","text":"Q(x) = $\\sum$ ${Q_i\n}$ \n\n(Нагрузка кондиционирования)","x":500,"y":-205,"width":300,"height":161},
-		{"id":"0410779cc17a24fa","type":"text","text":"$$\nQ_{glass, i} = Q_{rad,i} \\cdot a_{d, i} + Q_{\\delta t, i} \\tag{2}\n$$\n(Тепловой поток через остекление)","x":-440,"y":-440,"width":320,"height":125},
+		{"id":"0410779cc17a24fa","type":"text","text":"$$\nQ_{glass, i} = Q_{rad,i} \\cdot a_{d, i} + Q_{\\delta t, i} \\tag{2}\n$$\n(Тепловой поток через остекление)","x":-440,"y":-440,"width":380,"height":132},
 		{"id":"26e39a3d75decf96","type":"text","text":"$Q_{m}$ \n\n(Тепловой поток через массивные ограждения)","x":-440,"y":103,"width":320,"height":140},
 		{"id":"7ec45eb764bb429e","type":"text","text":"$$\nQ_{rad, i} = (q_d \\cdot K_1 + q_nd \\cdot K_2) \\cdot K3 \\cdot K4 \\cdot A_{gl} \\tag{3}\n$$\n(Тепловой поток солнечной радиации через световой проем)","x":-1180,"y":-536,"width":540,"height":125},
 		{"id":"6448a0bf629bed52","type":"text","text":"$$\nQ_{\\delta t, i} = (t_{out-day-mid} + 0.5 \\cdot A_{air-day} \\cdot theta - t_{in}) \\cdot (A_{gl} / R) \\tag{18}\n$$\n(Тепловой поток конвективной теплопередачей )","x":-1180,"y":-373,"width":540,"height":130},

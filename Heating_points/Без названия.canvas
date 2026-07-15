@@ -1,20 +1,19 @@
 {
 	"nodes":[
-		{"id":"cc0214de53bea6b4","type":"text","text":"Арматура","x":880,"y":-280,"width":250,"height":60},
-		{"id":"17ef6da7f35fcc8b","type":"text","text":"Трубы","x":1200,"y":-280,"width":250,"height":60},
-		{"id":"ad821f7208238aa0","type":"text","text":"КИП","x":1500,"y":-280,"width":250,"height":60},
-		{"id":"4d788f987b0c1a63","x":-380,"y":-280,"width":250,"height":60,"type":"text","text":"Схема ИТП"},
-		{"id":"221049122426b176","type":"text","text":"Блок","x":-60,"y":-280,"width":250,"height":60},
-		{"id":"1e91f59987dcb47d","type":"text","text":"","x":-380,"y":-20,"width":250,"height":60},
-		{"id":"c9d28d18a6f95db7","type":"text","text":"Блок ввода","x":-60,"y":-20,"width":250,"height":60},
-		{"id":"949087839aa64ae2","type":"text","text":"Система","x":260,"y":-280,"width":250,"height":60},
-		{"id":"f5c43a7609352e04","type":"text","text":"Система - Телпосеть","x":260,"y":-20,"width":250,"height":60},
-		{"id":"9e4849270fcf0a3a","type":"text","text":"Оборудование","x":580,"y":-280,"width":250,"height":60},
-		{"id":"1d6030cae04f30b3","type":"text","text":"Узел учета","x":580,"y":-20,"width":250,"height":60}
+		{"id":"221049122426b176","type":"text","text":"Module","x":-60,"y":-280,"width":250,"height":60},
+		{"id":"9e2d62d3701dd3bf","type":"text","text":"Branch","x":-60,"y":-140,"width":250,"height":60},
+		{"id":"9e4849270fcf0a3a","type":"text","text":"Оборудование","x":-60,"y":20,"width":250,"height":60},
+		{"id":"cc0214de53bea6b4","type":"text","text":"Арматура","x":240,"y":20,"width":250,"height":60},
+		{"id":"17ef6da7f35fcc8b","type":"text","text":"Трубы","x":560,"y":20,"width":250,"height":60},
+		{"id":"ad821f7208238aa0","type":"text","text":"КИП","x":860,"y":20,"width":250,"height":60},
+		{"id":"4d788f987b0c1a63","type":"text","text":"Схема ИТП","x":-60,"y":-400,"width":250,"height":60},
+		{"id":"949087839aa64ae2","type":"text","text":"Система","x":435,"y":-400,"width":250,"height":60}
 	],
 	"edges":[
-		{"id":"c42aa89c97f5c327","fromNode":"221049122426b176","fromSide":"bottom","toNode":"c9d28d18a6f95db7","toSide":"top"},
-		{"id":"52f441e0bcc13f48","fromNode":"1e91f59987dcb47d","fromSide":"right","toNode":"c9d28d18a6f95db7","toSide":"left"},
-		{"id":"791eb7788067872a","fromNode":"f5c43a7609352e04","fromSide":"left","toNode":"c9d28d18a6f95db7","toSide":"right"}
+		{"id":"3757caed516b6cb6","fromNode":"9e2d62d3701dd3bf","fromSide":"top","toNode":"221049122426b176","toSide":"bottom"},
+		{"id":"bfac62ec3d99b7f7","fromNode":"9e4849270fcf0a3a","fromSide":"top","toNode":"9e2d62d3701dd3bf","toSide":"bottom"},
+		{"id":"1908788382368351","fromNode":"cc0214de53bea6b4","fromSide":"top","toNode":"9e2d62d3701dd3bf","toSide":"bottom"},
+		{"id":"18ac871e5d3627ea","fromNode":"17ef6da7f35fcc8b","fromSide":"top","toNode":"9e2d62d3701dd3bf","toSide":"bottom"},
+		{"id":"d23c28b302ff3206","fromNode":"ad821f7208238aa0","fromSide":"top","toNode":"9e2d62d3701dd3bf","toSide":"bottom"}
 	]
 }
