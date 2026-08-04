@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"337f546d9a1653ec","x":-1674,"y":1316,"width":519,"height":997,"type":"group","label":"Группа без названия"},
 		{"id":"13fb99c0bc65d7e2","type":"text","text":"$K_1$ - коэффициенты облученности прямой солнечной радиацией для учета плошали светового проема;","x":-1652,"y":1336,"width":477,"height":94},
 		{"id":"541e3364883df987","type":"text","text":"$K_2$ - коэффициенты облученности д я учета поступления рассеянной солнечной радиации через световые проемы;","x":-1652,"y":1450,"width":477,"height":100},
 		{"id":"9b551c773eb645fa","type":"text","text":"$K_3$ - коэффициенты теплопропускания солнцезащитных устройств;","x":-1652,"y":1570,"width":477,"height":80},
@@ -8,17 +9,17 @@
 		{"id":"b9c6a75f6f796668","type":"text","text":"$q_nd$ - поверхностная плотность теплового потока, Вт/кв. м, через остекленный световой проем в июле в данный час суток от рассеянной солнечной радиации;","x":-1652,"y":2040,"width":475,"height":126},
 		{"id":"e95864f237ad8e4b","type":"text","text":"$q_d$ - поверхностная плотность теплового потока, Вт/кв. м, через остекленный световой проем в июле в данный час суток от прямой солнечной радиации;","x":-1652,"y":1883,"width":475,"height":120},
 		{"id":"8e7fbd755c874b47","type":"text","text":"Час суток","x":-1025,"y":1980,"width":250,"height":60},
-		{"id":"905a1357e3d0f9fc","type":"text","text":"$$\nQ_{rad, i} = (q_d \\cdot K_1 + q_nd \\cdot K_2) \\cdot K3 \\cdot K4 \\cdot A_{gl} \\tag{3}\n$$\n(Тепловой поток солнечной радиации через световой проем)","x":-425,"y":1980,"width":540,"height":125},
-		{"id":"ff66a1d31612a0b0","type":"text","text":"$A_{gl}$ - площадь светового проема (остекления), кв. м.","x":-1654,"y":2220,"width":479,"height":73}
+		{"id":"ff66a1d31612a0b0","type":"text","text":"$A_{gl}$ - площадь светового проема (остекления), кв. м.","x":-1654,"y":2220,"width":479,"height":73},
+		{"id":"905a1357e3d0f9fc","type":"text","text":"$$\nQ_{rad, i} = (q_d \\cdot K_1 + q_nd \\cdot K_2) \\cdot K3 \\cdot K4 \\cdot A_{gl} \\tag{3}\n$$\n(Тепловой поток солнечной радиации через световой проем)","x":-420,"y":1978,"width":540,"height":125}
 	],
 	"edges":[
+		{"id":"5c8a8467e8d20826","fromNode":"b9c6a75f6f796668","fromSide":"right","toNode":"8e7fbd755c874b47","toSide":"left","color":"5"},
+		{"id":"47061933309eba2a","fromNode":"e95864f237ad8e4b","fromSide":"right","toNode":"8e7fbd755c874b47","toSide":"left","color":"5"},
 		{"id":"c5e7fe0c83334eb1","fromNode":"13fb99c0bc65d7e2","fromSide":"right","toNode":"905a1357e3d0f9fc","toSide":"left","color":"5"},
 		{"id":"5c7c2f81f785f3f2","fromNode":"541e3364883df987","fromSide":"right","toNode":"905a1357e3d0f9fc","toSide":"left","color":"5"},
 		{"id":"a56703d668a59de8","fromNode":"9b551c773eb645fa","fromSide":"right","toNode":"905a1357e3d0f9fc","toSide":"left","color":"5"},
 		{"id":"84aeb03361921e25","fromNode":"b2361c78fbe76b01","fromSide":"right","toNode":"905a1357e3d0f9fc","toSide":"left","color":"5"},
 		{"id":"ad03247a2086fdfb","fromNode":"166f653fe245487c","fromSide":"right","toNode":"905a1357e3d0f9fc","toSide":"left","color":"5"},
-		{"id":"5c8a8467e8d20826","fromNode":"b9c6a75f6f796668","fromSide":"right","toNode":"8e7fbd755c874b47","toSide":"left","color":"5"},
-		{"id":"47061933309eba2a","fromNode":"e95864f237ad8e4b","fromSide":"right","toNode":"8e7fbd755c874b47","toSide":"left","color":"5"},
 		{"id":"8e202342a21bc03e","fromNode":"8e7fbd755c874b47","fromSide":"right","toNode":"905a1357e3d0f9fc","toSide":"left","color":"5"},
 		{"id":"ad70fd06b17ef287","fromNode":"ff66a1d31612a0b0","fromSide":"right","toNode":"905a1357e3d0f9fc","toSide":"left","color":"5"}
 	]

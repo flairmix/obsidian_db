@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"d0abfa815f5710d0","x":-620,"y":-340,"width":140,"height":620,"color":"3","type":"text","text":"Главная страница"},
+		{"id":"f76445af29727f1f","type":"text","text":"Header","x":-320,"y":-340,"width":233,"height":140,"color":"2"},
+		{"id":"a4ce567f08b6230f","type":"text","text":"Footer","x":-320,"y":160,"width":233,"height":120,"color":"2"},
+		{"id":"52361e0153179c6e","type":"text","text":"Основной блок","x":-320,"y":-160,"width":233,"height":280,"color":"2"},
+		{"id":"6b559aabf0f86599","x":0,"y":160,"width":250,"height":56,"type":"text","text":"Контакты"},
+		{"id":"dc2a2c388100b8b6","x":300,"y":156,"width":250,"height":60,"type":"text","text":"Политика конфиденциальности"}
+	],
+	"edges":[
+		{"id":"02532d52791dacf2","fromNode":"d0abfa815f5710d0","fromSide":"right","toNode":"f76445af29727f1f","toSide":"left"},
+		{"id":"4b005fb4bd2f5651","fromNode":"d0abfa815f5710d0","fromSide":"right","toNode":"52361e0153179c6e","toSide":"left"},
+		{"id":"abe1bddb6351009e","fromNode":"d0abfa815f5710d0","fromSide":"right","toNode":"a4ce567f08b6230f","toSide":"left"}
+	]
+}

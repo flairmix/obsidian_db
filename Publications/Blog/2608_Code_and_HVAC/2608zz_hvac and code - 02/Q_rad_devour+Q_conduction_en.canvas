@@ -21,7 +21,7 @@
 		{"id":"53d6c9db8b469a04","type":"text","text":"The hour of the beginning of direct radiation","x":-760,"y":1244,"width":260,"height":59},
 		{"id":"8ec96db553f8b345","type":"text","text":"$\\frac{\\sum{Y}}{\\bigtriangleup}$","x":-760,"y":1160,"width":260,"height":59},
 		{"id":"89aa6f78f518cc8d","type":"text","text":"Location","x":-2960,"y":1822,"width":477,"height":69},
-		{"id":"c579b0e318b3624b","type":"text","text":"Sun protection devices","x":-2960,"y":1022,"width":477,"height":69},
+		{"id":"c579b0e318b3624b","type":"text","text":"Sun protection devices","x":-2960,"y":1022,"width":477,"height":50},
 		{"id":"6ecacb6528e7b664","type":"text","text":"Glazing of the light opening","x":-2960,"y":1130,"width":477,"height":69},
 		{"id":"5b5c42b8fb08b76b","type":"text","text":"Indoor climate parameters","x":-2960,"y":1226,"width":477,"height":69},
 		{"id":"563c342c09cc4db3","type":"text","text":"Orientation relative to the cardinal directions","x":-2184,"y":680,"width":477,"height":53},
