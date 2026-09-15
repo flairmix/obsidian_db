@@ -22,8 +22,45 @@
               "icon": "lucide-file",
               "title": "hvac and code - cooling loads calculation - part2.1 - calculation methodologies 1"
             }
+          },
+          {
+            "id": "27ae86387d0944eb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Lanit/Маркировка/Маркировка П4.canvas",
+                "viewState": {
+                  "x": 2989.872798031694,
+                  "y": -1376.996151789987,
+                  "zoom": -1.0524816732180093
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Маркировка П4"
+            }
+          },
+          {
+            "id": "c1be9f9ad374ab79",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Lanit/Task manager/Доска задач.canvas",
+                "viewState": {
+                  "x": 640,
+                  "y": 822.5,
+                  "zoom": -0.6125330715117902
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Доска задач"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,63 +224,62 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "4b10df575989c45a",
+  "active": "c1be9f9ad374ab79",
   "lastOpenFiles": [
-    "uv.lock",
-    "README.md",
-    "pyproject.toml",
-    "main.py",
+    "Lanit/Маркировка/Маркировка П4.canvas",
+    "Lanit/Task manager/Доска задач.canvas",
+    "Lanit/Task manager/Задачи/01 To Do/c35fc34bd64ae6e4.md",
+    "Lanit/Task manager/Задачи/01 To Do/9187666568376b3b.md",
+    "Lanit/Task manager/Задачи/01 To Do/ebb348957fad669f.md",
+    "Lanit/Task manager/Задачи/01 To Do/5db58974a418a157.md",
+    "Lanit/Task manager/Задачи/01 To Do/16923650a868c184.md",
+    "Lanit/Task manager/Задачи/01 To Do/27c597791074d007.md",
+    "Lanit/Task manager/Сроки.base",
+    "Lanit/Task manager/Задачи/01 To Do/4488eafd574ab511.md",
+    "Lanit/Task manager/Задачи/01 To Do/83f2f031d4d12ff5.md",
+    "Lanit/Task manager/Задачи/01 To Do/Контроль выдачи задания от ОВиК к ВК в части дренажа — 83f2f031.md",
+    "Lanit/Task manager/Задачи/03 Выполнено/Запрос на проверку Вайбос для потолочных 1 этажа — 1930cb2c.md",
+    "Lanit/Task manager/Задачи/03 Выполнено/Добавить длины труб на схемах для Вайбос для удобства — d84db44b.md",
+    "Lanit/Task manager/Задачи/03 Выполнено/Внести изменения в модель CRAC 1 -12 — a2c67870.md",
+    "Lanit/Task manager/Задачи/02 В работе/Запрос на проверку Вайбос для шкафных CRAC 13-24 — 1809acaa.md",
+    "Lanit/Task manager/Задачи/01 To Do/Подготовка задания для ЭОМ — 5db58974.md",
+    "Lanit/Task manager/Задачи/01 To Do/Подготовка задания для АК — 16923650.md",
+    "Lanit/Task manager/Задачи/01 To Do/Обсуждение с Ивановым зимних комплектов ВСМ на площадке и на крыше — 27c59779.md",
+    "Lanit/Task manager/Задачи/01 To Do/Начать разработку маркировки для ОВиК и Кондиционирования — 4488eafd.md",
+    "Lanit/Task manager/Задачи/02 В работе/1809acaa4dbb741b.md",
+    "Lanit/Task manager/Задачи/02 В работе/a2c6787056a2dd8d.md",
+    "Lanit/Task manager/Задачи/03 Выполнено/a2c6787056a2dd8d.md",
+    "Lanit/Task manager/Задачи/03 Выполнено/1930cb2cf9c5a4cd.md",
+    "Lanit/Task manager/Задачи/03 Выполнено/d84db44bcf6cc79f.md",
+    "Lanit/Task manager/Задачи/01 To Do/1809acaa4dbb741b.md",
+    "Lanit/Task manager/Резервные копии/20260915-171454-b93a3a.sqlite3",
+    "Lanit/Task manager/Данные/tasks.sqlite3-journal",
+    "Lanit/Task manager/Задачи/Без названия.md",
+    "Reading/List.md",
+    "Без названия 1.base",
+    "ТЗ.canvas",
+    "Pasted image 20260715182837.png",
+    "Pasted image 20260428183841.png",
+    "Без названия.base",
+    "Доска задач.canvas",
+    "Данные/tasks.sqlite3",
+    "Данные",
+    "Lanit/Task manager/Задачи/03 Выполнено",
+    "Lanit/Task manager/Резервные копии/20260915-121509-bb3325.sqlite3",
+    "Lanit/Task manager/Резервные копии/20260915-121338-82ca89.sqlite3",
+    "Lanit/Task manager/П4/Без названия.canvas",
+    "Flair/portfolio/2026-05№010 - Ребячья республика/Rebyachya_republic_4.png",
+    "Flair/portfolio/2026-05№010 - Ребячья республика/Rebyachya_republic_1.jpg",
+    "Flair/portfolio/2026-07№011 - Молодежный центр - Звездный/Zvezdny_2.png",
+    "Lanit/Маркировка/Маркировка_П4_ОВ.canvas",
     "Flair/portfolio/2026-08№012 - Районная больница, пгт.Приобье/Priobye_2.png",
     "Flair/portfolio/2026-08№012 - Районная больница, пгт.Приобье/Priobye_3.png",
     "Flair/portfolio/2026-07№011 - Молодежный центр - Звездный/Zvezdny_1.jpg",
-    "Flair/portfolio/2026-07№011 - Молодежный центр - Звездный/Zvezdny_2.png",
     "Flair/portfolio/2026-05№010 - Ребячья республика/Rebyachya_republic_88.png",
     "Flair/portfolio/2026-05№010 - Ребячья республика/Rebyachya_republic_08.png",
-    "Flair/portfolio/2026-05№010 - Ребячья республика/Rebyachya_republic_8.png",
-    "Flair/portfolio/2026-05№010 - Ребячья республика/Rebyachya_republic_7.png",
-    "Flair/portfolio/2026-05№010 - Ребячья республика/Rebyachya_republic_6.png",
-    "Flair/portfolio/2026-05№010 - Ребячья республика/Rebyachya_republic_5.png",
-    "Publications/Blog/2608_Code_and_HVAC/2608zz_hvac and code - 02/hvac and code - cooling loads calculation - part2.1 - calculation methodologies 1.md",
-    "Flair/portfolio/2026-07№011 - Молодежный центр - Звездный",
-    "Flair/portfolio/2026-05№010 - Ребячья республика",
-    "Publications/Blog/2608_Code_and_HVAC/2608zz_hvac and code - 02/hvac and code - cooling loads calculation - part2.1 - calculation methodologies.md",
-    "Flair/portfolio/2026-08№012 - Районная больница, пгт.Приобье",
-    "Flair/portfolio",
     "Publications/Blog/2608_Code_and_HVAC/2608zz_hvac and code - 02/Input-output-building.canvas",
-    "Flair/ТЗ_ИТП_Р/Шаблон/ТЗ_ИТП_Р_Блочные.md",
-    "Flair/ТЗ_ИТП_Р/Шаблон/Исходные данные для проектирования.md",
-    "Flair/ТЗ_ИТП_Р/Шаблон/Вендор - лист.md",
-    "DataScience/План - график.md",
-    "Без названия.md",
     "Publications/Blog/2608_Code_and_HVAC/2608zz_hvac and code - 02/Cooling_load_en.canvas",
     "Publications/Blog/2608_Code_and_HVAC/2608zz_hvac and code - 02/Cooling_load_ru.canvas",
-    "Без названия 1.base",
-    "Без названия.base",
-    "CFD/openFoam/структура проекта/граф_структуры.canvas",
-    "CFD/CFD basics.md",
-    "Mechanic/Уравнение движения.canvas",
-    "Mechanic/definitions/p - Pressure.md",
-    "Mechanic/definitions/p - Momentum.md",
-    "Mechanic/definitions/a - Acceleration.md",
-    "Mechanic/definitions/Dot product.md",
-    "Mechanic/definitions/Eulerian specification of the flow field.md",
-    "Mechanic/definitions/F - Force.md",
-    "Mechanic/definitions/m - Mass.md",
-    "Lanit/Расчет утечек воздуха через дверь по Пособию 1.91 к СНиП 2.04.05-91.md",
-    "Latex MD.md",
-    "ТЗ.canvas",
-    "Publications/Blog/2603_Solar_heat/Q_rad, i.canvas",
-    "Publications/Blog/2603_Solar_heat/Solar radiation and cooling load calculation for HVAC.md",
-    "Flair/ТЗ_ИТП_Р/Шаблон/Данные о проекте.md",
-    "Heating_points/Product description.md",
-    "Heating_points/Без названия.canvas",
-    "Заметка №2.md",
-    "Заметка №1.md",
-    "ТЗ_Котельная.md",
-    "Flair/Без названия 2.md",
-    "Publications/Blog/2608_Code_and_HVAC/2608zz_hvac and code - 02/Q_rad_devour+Q_conduction_en.canvas",
-    "Flair/ТЗ_ИТП_Р/Шаблон",
-    "Flair/ТЗ_ИТП_Р",
-    "Publications/Blog/2608_Code_and_HVAC/2608zz_hvac and code - 02/Building_tree_lists.canvas"
+    "CFD/openFoam/структура проекта/граф_структуры.canvas"
   ]
 }
