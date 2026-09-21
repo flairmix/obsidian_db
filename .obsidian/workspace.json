@@ -32,8 +32,8 @@
               "state": {
                 "file": "Lanit/Маркировка/Маркировка П4.canvas",
                 "viewState": {
-                  "x": 8396.880576695467,
-                  "y": -6258.904875572635,
+                  "x": 7104.736120393352,
+                  "y": -6392.246563937963,
                   "zoom": -1.6666666666666672
                 }
               },
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,8 +221,22 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "5f8b13538e6cc925",
+  "active": "27ae86387d0944eb",
   "lastOpenFiles": [
+    "Lanit/Task manager/Начать здесь.md",
+    "Flair/portfolio/2026-04№009 - Учебно-тренинговый центр, г.Мегион/Megion_3.png",
+    "Flair/portfolio/2026-04№009 - Учебно-тренинговый центр, г.Мегион/Megion_2.png",
+    "Flair/portfolio/2026-04№009 - Учебно-тренинговый центр, г.Мегион/Megion_1.png",
+    "Flair/portfolio/2026-04№009 - Учебно-тренинговый центр, г.Мегион/Megion_0.jpg",
+    "Flair/portfolio/2026-04№009 - Учебно-тренинговый центр, г.Мегион",
+    "Flair/portfolio/Новая папка",
+    "Flair/portfolio/Megion_0.jpg",
+    "Flair/portfolio/{3D - mid} (1).jpg",
+    "Flair/portfolio/2025-08№002 - МКД, Тюмень_Челюскинцев/Chelyskinzev_4.png",
+    "Flair/portfolio/2025-08№002 - МКД, Тюмень_Челюскинцев/Chelyskinzev_3.png",
+    "Flair/portfolio/2025-08№002 - МКД, Тюмень_Челюскинцев/Chelyskinzev_0.png",
+    "Flair/portfolio/2025-08№002 - МКД, Тюмень_Челюскинцев/Chelyskinzev_2.png",
+    "Flair/portfolio/2025-08№002 - МКД, Тюмень_Челюскинцев",
     "Lanit/Task manager/Резервные копии/20260916-182645-c882e3.sqlite3-journal",
     "Lanit/Task manager/Резервные копии/20260916-182645-c882e3.sqlite3",
     "Lanit/Task manager/Доска задач.canvas",
@@ -247,18 +261,9 @@
     "DataScience/Math",
     "DataScience/План - график.md",
     "Lanit/Task manager/Управление/__pycache__/export_obsidian.cpython-314.pyc",
-    "Lanit/Task manager/Данные/tasks.sqlite3-journal",
-    "Lanit/Task manager/Управление/__pycache__/tasks.cpython-314.pyc",
-    "Lanit/Task manager/Управление/__pycache__/models.cpython-314.pyc",
-    "Lanit/Task manager/Управление/__pycache__",
-    "Lanit/Task manager/Начать здесь.md",
     "README.md",
-    "Pasted image 20260715182837.png",
-    "Pasted image 20260428183841.png",
-    "output.png",
     "Latex MD.md",
     "Reading/List.md",
-    "Cooling_load.png",
     "ТЗ_Котельная.md",
     "Без названия 2.md",
     "Без названия 1.md",
@@ -272,12 +277,6 @@
     "ТЗ.canvas",
     "Доска задач.canvas",
     "Lanit/Task manager/П4/Без названия.canvas",
-    "Flair/portfolio/2026-05№010 - Ребячья республика/Rebyachya_republic_4.png",
-    "Flair/portfolio/2026-05№010 - Ребячья республика/Rebyachya_republic_1.jpg",
-    "Flair/portfolio/2026-07№011 - Молодежный центр - Звездный/Zvezdny_2.png",
-    "Flair/portfolio/2026-08№012 - Районная больница, пгт.Приобье/Priobye_2.png",
-    "Flair/portfolio/2026-08№012 - Районная больница, пгт.Приобье/Priobye_3.png",
-    "Flair/portfolio/2026-07№011 - Молодежный центр - Звездный/Zvezdny_1.jpg",
     "Publications/Blog/2608_Code_and_HVAC/2608zz_hvac and code - 02/Input-output-building.canvas"
   ]
 }
