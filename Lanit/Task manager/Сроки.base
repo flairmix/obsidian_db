@@ -1,0 +1,136 @@
+filters:
+  and:
+  - file.inFolder("Lanit/Task manager/Задачи")
+  - file.ext == "md"
+formulas:
+  Статус: if(file.inFolder("Lanit/Task manager/Задачи/03 Выполнено"), "Выполнено",
+    if(file.inFolder("Lanit/Task manager/Задачи/02 В работе"), "В работе", "To Do"))
+properties:
+  file.name:
+    displayName: Задача
+  formula.Статус:
+    displayName: Статус
+  оценка_ч:
+    displayName: Оценка, ч
+views:
+- type: table
+  name: Активные
+  groupBy:
+    property: статус
+    direction: DESC
+  order:
+  - проект
+  - file.fullname
+  - статус
+  - создано
+  - срок
+  - приоритет
+  - завершено
+  - начать
+  - оценка_ч
+  - id
+  - file.name
+  sort:
+  - property: file.ctime
+    direction: ASC
+  - property: formula.Статус
+    direction: ASC
+  columnSize:
+    note.проект: 110
+    file.fullname: 606
+    note.статус: 138
+    note.срок: 158
+    note.id: 273
+- type: table
+  name: Просрочено
+  filters:
+    and:
+    - '!file.inFolder("Lanit/Task manager/Задачи/03 Выполнено")'
+    - срок
+    - date(срок) < today()
+  order:
+  - aliases
+  - formula.Статус
+  - срок
+  - приоритет
+  - проект
+  - начать
+  - оценка_ч
+  - завершено
+  sort:
+  - property: срок
+    direction: ASC
+- type: table
+  name: Сегодня
+  filters:
+    and:
+    - '!file.inFolder("Lanit/Task manager/Задачи/03 Выполнено")'
+    - срок
+    - date(срок) == today()
+  order:
+  - aliases
+  - formula.Статус
+  - срок
+  - приоритет
+  - проект
+  - начать
+  - оценка_ч
+  - завершено
+  sort:
+  - property: срок
+    direction: ASC
+- type: table
+  name: Ближайшие 7 дней
+  filters:
+    and:
+    - '!file.inFolder("Lanit/Task manager/Задачи/03 Выполнено")'
+    - срок
+    - date(срок) >= today()
+    - date(срок) < today() + "7d"
+  order:
+  - aliases
+  - formula.Статус
+  - срок
+  - приоритет
+  - проект
+  - начать
+  - оценка_ч
+  - завершено
+  sort:
+  - property: срок
+    direction: ASC
+- type: table
+  name: Без срока
+  filters:
+    and:
+    - '!file.inFolder("Lanit/Task manager/Задачи/03 Выполнено")'
+    - '!срок'
+  order:
+  - aliases
+  - formula.Статус
+  - срок
+  - приоритет
+  - проект
+  - начать
+  - оценка_ч
+  - завершено
+  sort:
+  - property: срок
+    direction: ASC
+- type: table
+  name: Выполнено
+  filters:
+    and:
+    - file.inFolder("Lanit/Task manager/Задачи/03 Выполнено")
+  order:
+  - aliases
+  - formula.Статус
+  - срок
+  - приоритет
+  - проект
+  - начать
+  - оценка_ч
+  - завершено
+  sort:
+  - property: срок
+    direction: ASC
